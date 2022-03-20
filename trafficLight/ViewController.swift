@@ -48,9 +48,7 @@ class ViewController: UIViewController {
             pressButtonCount = 0
             showTextButton.setTitle("AGAIN?", for: .normal)
         }
-       
     }
-    
 
 }
 

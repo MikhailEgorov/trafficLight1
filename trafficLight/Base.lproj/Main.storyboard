@@ -44,6 +44,9 @@
                                 <state key="normal" title="START">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="pressButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yf-uR-HxH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,6 +61,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q3R-5C-W3E" secondAttribute="bottom" constant="36" id="zSA-3X-Oce"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionLights" destination="6ie-kb-fEe" id="BBR-FC-8f1"/>
+                        <outlet property="greenLightView" destination="GE3-sb-xGb" id="AyL-2H-PLI"/>
+                        <outlet property="redLightView" destination="MOg-k1-v9K" id="wks-Rs-xFr"/>
+                        <outlet property="showTextButton" destination="Q3R-5C-W3E" id="r8O-dG-AUm"/>
+                        <outlet property="yellowLightView" destination="toM-gz-YLv" id="OTA-fZ-CkD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
